@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Award_work</title>
+    <link rel="stylesheet" href="WorkDetail-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cdeaab36f.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="img/LOGO.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">공모전 정보</a></li>
+                <li><a href="../WorkList.html">공모전 수상작</a></li>
+                <li><a href="../team.html">팀원모집</a></li>
+                <li><a href="../Edu.html">학과정보</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 수상작 상단 정보 -->
+    <section class="section_head">
+        <div class="heading">
+            <h2>ECHO</h2>
+            <ul class="tag">
+                <li>
+                    <p>태그</p>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">3D모델링</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">서비스디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품시스템디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품인터페이스디자인</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="share">
+            <ul>
+                <li class="kakaotalk">
+                    <a href="###">
+                        <img src="./share/kakaotalk_normal.png" alt="">
+                        <img src="./share/kakaotalk_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="naver">
+                    <a href="###">
+                        <img src="./share/naver_normal.png" alt="">
+                        <img src="./share/naver_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="###">
+                        <img src="./share/facebook_normal.png" alt="">
+                        <img src="./share/facebook_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="###">
+                        <img src="./share/twitter_normal.png" alt="">
+                        <img src="./share/twitter_hover.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 이미지 슬라이드 -->
+    <section class="section_slide">
+        <div id="wrapper">
+            <div id="slider-wrap">
+                <ul id="slider">
+                    <li>
+                        <img id="featured" src="./Detail-img/ECHO/ECHO_1.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/ECHO/ECHO_2.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/ECHO/ECHO_3.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/ECHO/ECHO_4.png">
+                    </li>
+
+                </ul>
+
+                <!--controls-->
+                <div class="btns" id="next"><i class="fas fa-chevron-right"></i></div>
+                <div class="btns" id="previous"><i class="fas fa-chevron-left"></i></div>
+                <!-- <div id="counter"></div> -->
+
+                <div id="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+                <!--controls-->
+
+            </div>
+        </div>
+        <!-- 썸네일 이미지-->
+        <div class="thumb">
+            <div class="thumb-wrap">
+                <ul id="thumb-slider">
+                    <li>
+                        <img class="thumbnail" id="thumbnail1" src="./Detail-img/ECHO/ECHO_1.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail2" src="./Detail-img/ECHO/ECHO_2.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail3" src="./Detail-img/ECHO/ECHO_3.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail4" src="./Detail-img/ECHO/ECHO_4.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 수상작 정보 -->
+    <section class="section_info">
+        <div class="winner">
+            <h4>수상자</h4>
+            <div class="student">
+                <img src="./winner/ECHO/ECHO_권현구.png" alt="">
+                <div class="student_info">
+                    <p>권현구</p>
+                    <p>산업디자인전공</p>
+                    <p>제품디자인</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="work_info">
+            <h4>작품 정보</h4>
+            <div class="info">
+                <div>
+                    <div class="info1">
+                        <p>공모전</p><span>스파크 어워드</span>
+                    </div>
+                    <div class="info2">
+                        <p>수상부문</p><span>Spring Student 부문 은상</span>
+                    </div>
+                    <div class="info3">
+                        <p>수상일자</p><span>2020</span>
+                    </div>
+                </div>
+                <a class="btn1" href="###">공모전 보러갈래요</a>
+            </div>
+            <div class="text">
+                <p>
+                    시각장애인이 악기를 연주할 때 필요한 점자 악보에서 문제점을 착안했다. 점자 악보는 일반적으로 접하기 어려울 뿐만 아니라 일반 악보에 비해 장수가 많아 관리가 힘들고 악보에 적용되는 점자는 구조마저 다르다. 이 같은 불편함을 해소하고자 기타를 매개체로 한 디자인을 개발했다. ‘ECHO’는 스마트 기타 악보 디바이스로 기타를 잡고 줄을 튕기는 위치정보를 청각신호와 버튼의 변화·진동을 이용해 직관적으로 전달되도록 했다. 또한 악보를 습득하는 과정을 음원파일로 녹음하여 코드로 자동 변환해 주는 실시간 악보변환 기능을 담고 있다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_comment">
+        <h5>댓글 <span id="result">1</span>개</h5>
+        <div id="comment">
+            <img src="./winner/Unknown.png" alt="">
+            <div>
+                <div class="name">
+                    <span>이름</span>
+                    <p>date</p>
+                </div>
+                <p class="comments">comment</p>
+            </div>
+        </div>
+        <div class="comment-list"></div>
+        <div class="new-comment-container">
+            <img src="./winner/Unknown.png" alt="">
+            <input id="comment_box" />
+        </div>
+        <button id="send" onclick='count("plus")' value='+'>댓글 쓰기</button>
+    </section>
+
+    <section class="section_btn">
+        <a class="btn2" href="###" id="bookmark_btn">
+            <span id="bookmark"><i class="far fa-bookmark"></i></span>
+            <p>북마크할래요</p>
+        </a>
+        <a class="btn2" href="###" id="heart_btn">
+            <span id="heart"><i class="far fa-heart"></i></span>
+            <p>좋아요 누를래요</p>
+        </a>
+    </section>
+
+    <footer></footer>
+
+
+
+    <script src="work-script.js"></script>
+</body>
+
+</html>

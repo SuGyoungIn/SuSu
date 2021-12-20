@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Award_work</title>
+    <link rel="stylesheet" href="WorkDetail-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cdeaab36f.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="img/LOGO.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">공모전 정보</a></li>
+                <li><a href="../WorkList.html">공모전 수상작</a></li>
+                <li><a href="../team.html">팀원모집</a></li>
+                <li><a href="../Edu.html">학과정보</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 수상작 상단 정보 -->
+    <section class="section_head">
+        <div class="heading">
+            <h2>Safe Kick</h2>
+            <ul class="tag">
+                <li>
+                    <p>태그</p>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">3D모델링</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">서비스디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품시스템디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품인터페이스디자인</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="share">
+            <ul>
+                <li class="kakaotalk">
+                    <a href="###">
+                        <img src="./share/kakaotalk_normal.png" alt="">
+                        <img src="./share/kakaotalk_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="naver">
+                    <a href="###">
+                        <img src="./share/naver_normal.png" alt="">
+                        <img src="./share/naver_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="###">
+                        <img src="./share/facebook_normal.png" alt="">
+                        <img src="./share/facebook_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="###">
+                        <img src="./share/twitter_normal.png" alt="">
+                        <img src="./share/twitter_hover.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 이미지 슬라이드 -->
+    <section class="section_slide">
+        <div id="wrapper">
+            <div id="slider-wrap">
+                <ul id="slider">
+                    <li>
+                        <img id="featured" src="./Detail-img/SafeKick/Safe Kick_1.png">
+                    </li>
+                </ul>
+
+                <!--controls-->
+                <div class="btns" id="next"><i class="fas fa-chevron-right"></i></div>
+                <div class="btns" id="previous"><i class="fas fa-chevron-left"></i></div>
+                <!-- <div id="counter"></div> -->
+
+                <div id="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+                <!--controls-->
+
+            </div>
+        </div>
+        <!-- 썸네일 이미지-->
+        <div class="thumb">
+            <div class="thumb-wrap">
+                <ul id="thumb-slider">
+                    <li>
+                        <img class="thumbnail" id="thumbnail1" src="./Detail-img/SafeKick/Safe Kick_1.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 수상작 정보 -->
+    <section class="section_info">
+        <div class="winner">
+            <h4>수상자</h4>
+            <div class="student">
+                <img src="./winner/Unknown.png" alt="">
+                <div class="student_info">
+                    <p>조승기</p>
+                    <p>디자인공학부</p>
+                    <p>제품디자인</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="work_info">
+            <h4>작품 정보</h4>
+            <div class="info">
+                <div>
+                    <div class="info1">
+                        <p>공모전</p><span>블루어워드</span>
+                    </div>
+                    <div class="info2">
+                        <p>수상부문</p><span>은상</span>
+                    </div>
+                    <div class="info3">
+                        <p>수상일자</p><span>2020</span>
+                    </div>
+                </div>
+                <a class="btn1" href="###">공모전 보러갈래요</a>
+            </div>
+            <div class="text">
+                <p>
+                    'SAFE KICK'은 안전하고 실용적인 공유 전동 킥보드로 미사용 시 접을 수 있게 함으로써 주변 공간 활용도를 높이고, 킥보드와 헬멧의 결합을 통해 사용자가 헬멧을 착용해야 킥보드를 사용할 수 있게 행동을 유도하는 데 초점을 맞췄다. 특히 헬멧 내부의 홈과 접힌 손잡이의 끝이 자석으로 연결되어 자연스럽게 결합할 수 있게 하고, 결합한 헬멧은 UV 라이트로 살균까지 가능하게 하였다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_comment">
+        <h5>댓글 <span id="result">1</span>개</h5>
+        <div id="comment">
+            <img src="./winner/Unknown.png" alt="">
+            <div>
+                <div class="name">
+                    <span>이름</span>
+                    <p>date</p>
+                </div>
+                <p class="comments">comment</p>
+            </div>
+        </div>
+        <div class="comment-list"></div>
+        <div class="new-comment-container">
+            <img src="./winner/Unknown.png" alt="">
+            <input id="comment_box" />
+        </div>
+        <button id="send" onclick='count("plus")' value='+'>댓글 쓰기</button>
+    </section>
+
+    <section class="section_btn">
+        <a class="btn2" href="###" id="bookmark_btn">
+            <span id="bookmark"><i class="far fa-bookmark"></i></span>
+            <p>북마크할래요</p>
+        </a>
+        <a class="btn2" href="###" id="heart_btn">
+            <span id="heart"><i class="far fa-heart"></i></span>
+            <p>좋아요 누를래요</p>
+        </a>
+    </section>
+
+    <footer></footer>
+
+
+
+    <script src="work-script.js"></script>
+</body>
+
+</html>

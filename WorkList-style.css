@@ -1,0 +1,272 @@
+/*GLOBALS*/
+*{
+    margin:0; padding:0; 
+    list-style:none;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+text-decoration:none;
+color: #212121;
+}
+ul {
+    list-style: none;
+}
+
+
+header {
+  width: 1130px;
+  margin: 0 auto 64px auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+nav li::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  border-radius: 1px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+nav li:hover::after{
+  width: 100%;
+}
+  
+
+
+section {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+
+.heading{
+    width: 100vw;
+    display: block;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+.click-menu {
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+.contents-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 36px;
+}
+.award-work {
+    width: 340px;
+    height: 384px;
+    border-radius: 10px;
+    border: solid 2px #eeeeee;
+    position: relative;
+    transition: all .1s ease-in;
+}
+.award-work:hover{
+    /* transform: translateY(-5px); */
+    top: -4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+.work-img {
+    height:280px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+#work1{
+    background-image: url(img/WorkList/Polling.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work2{
+    background-image: url(img/WorkList/Prep-LABs.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work3{
+    background-image: url(img/WorkList/HormoneGraphy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work4{
+    background-image: url(img/WorkList/ECHO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work5{
+    background-image: url(img/WorkList/Safe\ Kick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work6{
+    background-image: url(img/WorkList/100년태극기.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work7{
+    background-image: url(img/WorkList/Wheeling.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work8{
+    background-image: url(img/WorkList/INBOX.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work9{
+    background-image: url(img/WorkList/Nipple\ Mask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work10{
+    background-image: url(img/WorkList/Fish\ in\ the\ hole.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work11{
+    background-image: url(img/WorkList/NEW\ FRUIT.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work-logo{
+    width: 36px; height: 36px;
+    position: absolute;
+    top: 20px; left: 20px;
+}
+#logo-reddot{
+    background-image: url(img/logo/reddot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#logo-iF{
+    background-image: url(img/logo/iF.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#logo-IDEA{
+    background-image: url(img/logo/IDEA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#logo-spark{
+    background-image: url(img/logo/spark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#logo-blue{
+    background-image: url(img/logo/BlueAwards.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#logo-biennale{
+    background-image: url(img/logo/biennale.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+#logo-korea{
+    background-image: url(img/logo/korea.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#logo-taiwan{
+    background-image: url(img/logo/taiwan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-heading{
+    width: 316px; height: 32px;
+    margin: 12px 12px 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-heading h3{
+    font-size: 18px; color: #212121;
+    display: flex;
+}
+.card-heading .heart{
+    display: flex;
+}
+.heart .fa-heart{
+    color: #FD5486;
+    font-size: 20px;
+    margin-right: 4px;
+}
+.heart .heart-number{
+    font-size: 14px;
+    color: #878890;
+}
+.text{
+    width: 316px; height: 40px;
+    margin: 0px 12px 12px 12px;
+    font-size: 12px; color: #333333;
+    text-align: justify;
+}
+
+.fa-bookmark {
+    color: #5585FF;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+

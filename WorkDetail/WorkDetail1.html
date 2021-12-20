@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Award_work</title>
+    <link rel="stylesheet" href="WorkDetail-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cdeaab36f.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"><img src="img/LOGO.png" alt="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">공모전 정보</a></li>
+                <li><a href="../WorkList.html">공모전 수상작</a></li>
+                <li><a href="../team.html">팀원모집</a></li>
+                <li><a href="../Edu.html">학과정보</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 수상작 상단 정보 -->
+    <section class="section_head">
+        <div class="heading">
+            <h2>Polling</h2>
+            <ul class="tag">
+                <li>
+                    <p>태그</p>
+                </li>
+                <li>
+                    <a href="../Edu.html">제품디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">3D모델링</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">2D그래픽</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">GUI요소디자인</a>
+                </li>
+                <li>
+                    <a href="../Edu.html">서비스디자인</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="share">
+            <ul>
+                <li class="kakaotalk">
+                    <a href="###">
+                        <img src="./share/kakaotalk_normal.png" alt="">
+                        <img src="./share/kakaotalk_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="naver">
+                    <a href="###">
+                        <img src="./share/naver_normal.png" alt="">
+                        <img src="./share/naver_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="facebook">
+                    <a href="###">
+                        <img src="./share/facebook_normal.png" alt="">
+                        <img src="./share/facebook_hover.png" alt="">
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="###">
+                        <img src="./share/twitter_normal.png" alt="">
+                        <img src="./share/twitter_hover.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 이미지 슬라이드 -->
+    <section class="section_slide">
+        <div id="wrapper">
+            <div id="slider-wrap">
+                <ul id="slider">
+                    <li>
+                        <img id="featured" src="./Detail-img/Polling/Polling_1.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/Polling/Polling_2.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/Polling/Polling_3.png">
+                    </li>
+
+                    <li>
+                        <img src="./Detail-img/Polling/Polling_4.png">
+                    </li>
+
+                </ul>
+
+                <!--controls-->
+                <div class="btns" id="next"><i class="fas fa-chevron-right"></i></div>
+                <div class="btns" id="previous"><i class="fas fa-chevron-left"></i></div>
+                <!-- <div id="counter"></div> -->
+
+                <div id="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+                <!--controls-->
+
+            </div>
+        </div>
+        <!-- 썸네일 이미지-->
+        <div class="thumb">
+            <div class="thumb-wrap">
+                <ul id="thumb-slider">
+                    <li>
+                        <img class="thumbnail" id="thumbnail1" src="./Detail-img/Polling/Polling_1.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail2" src="./Detail-img/Polling/Polling_2.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail3" src="./Detail-img/Polling/Polling_3.png" alt="">
+                    </li>
+                    <li>
+                        <img class="thumbnail" id="thumbnail4" src="./Detail-img/Polling/Polling_4.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 수상작 정보 -->
+    <section class="section_info">
+        <div class="winner">
+            <h4>수상자</h4>
+            <div class="student">
+                <img src="./winner/Polling/Polling_정윤경.png" alt="">
+                <div class="student_info">
+                    <p>정윤경</p>
+                    <p>융합디자인전공</p>
+                    <p>UI / UX</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+            <div class="student">
+                <img src="./winner/Polling/Polling_정미령.png" alt="">
+                <div class="student_info">
+                    <p>정미령</p>
+                    <p>융합디자인전공</p>
+                    <p>UI / UX</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+            <div class="student">
+                <img src="./winner/Polling/Polling_유채원.png" alt="">
+                <div class="student_info">
+                    <p>유채원</p>
+                    <p>융합디자인전공</p>
+                    <p>UI / UX</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+            <div class="student">
+                <img src="./winner/Polling/Polling_김민영.png" alt="">
+                <div class="student_info">
+                    <p>김민영</p>
+                    <p>융합디자인전공</p>
+                    <p>제품디자인</p>
+                </div>
+                <a class="contact" href="mailto:name@gmail.com">
+                    <img src="./contact/normal.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="work_info">
+            <h4>작품 정보</h4>
+            <div class="info">
+                <div>
+                    <div class="info1">
+                        <p>공모전</p><span>레드닷 어워드</span>
+                    </div>
+                    <div class="info2">
+                        <p>수상부문</p><span>제품디자인부문</span>
+                    </div>
+                    <div class="info3">
+                        <p>수상일자</p><span>2021.09.01</span>
+                    </div>
+                </div>
+                <a class="btn1" href="###">공모전 보러갈래요</a>
+            </div>
+            <div class="text">
+                <p>
+                    빠르게 변화하는 디지털 시대 속 아직까지 선거는 아날로그 방식을 고집하고 있다. 디지털방식의 선거에 대한 신뢰가 부족하기 때문이다. 아날로그 방식은 하락하는 특정 유권층의 투표율,
+                    늘어나는 선거관리비용에 대한 문제를 피할 수 없다. 우리는 이 문제를 해결하고자 디지털 선거 시스템을 만들었다. 아날로그에서 디지털 방식으로 넘어가는 과도기에서 생기는 문제에
+                    집중하여 선거과정에 접근성을 높혔다. 편리한 투표부터 신속, 정확한 개표까지 전반적인 과정을 개선해 투표율을 높히고 직접 민주주의 구현을 기대할 수 있다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_comment">
+        <h5>댓글 <span id="result">1</span>개</h5>
+        <div id="comment">
+            <img src="./winner/Unknown.png" alt="">
+            <div>
+                <div class="name">
+                    <span>이름</span>
+                    <p>date</p>
+                </div>
+                <p class="comments">comment</p>
+            </div>
+        </div>
+        <div class="comment-list"></div>
+        <div class="new-comment-container">
+            <img src="./winner/Unknown.png" alt="">
+            <input id="comment_box" />
+        </div>
+        <button id="send" onclick='count("plus")' value='+'>댓글 쓰기</button>
+    </section>
+
+    <section class="section_btn">
+        <a class="btn2" href="###" id="bookmark_btn">
+            <span id="bookmark"><i class="far fa-bookmark"></i></span>
+            <p>북마크할래요</p>
+        </a>
+        <a class="btn2" href="###" id="heart_btn">
+            <span id="heart"><i class="far fa-heart"></i></span>
+            <p>좋아요 누를래요</p>
+        </a>
+    </section>
+
+    <footer></footer>
+
+
+
+    <script src="work-script.js"></script>
+</body>
+
+</html>
